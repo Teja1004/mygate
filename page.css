@@ -111,7 +111,7 @@ body {
   .gentext h1{
     font-family: poppin-bold-700px;
     font-weight: 800;
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
   .bmx{
     width:100% ;
@@ -394,4 +394,14 @@ body {
 .footer ul li a:hover{
   color: #f57474e5;
   text-decoration: none;
+}
+.dropdown ul li a:hover{
+  color: #f7675a;
+
+}
+.items li a{
+  font-size: 1.5vw;
+  font-family: poppins;
+  
+
 }
