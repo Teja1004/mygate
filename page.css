@@ -40,8 +40,13 @@ p {
   position: fixed;
   top: 0%;
   background-color: #fff;
-  width: 100dvw;
+  width: 100%;
   box-shadow: 0px 4px 8px silver;
+  padding-left: 0px;
+}
+.bmx{
+  width: 100%;
+  overflow: hidden;
 }
 
 .navbar-default {
@@ -112,6 +117,10 @@ p {
     margin-left: 10% !important;
     padding-top: 2%;
   
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .mobile {
@@ -216,7 +225,7 @@ p {
 
 .card {
   box-shadow: 0px 4px 10px silver;
-  margin: 10px;
+  margin: 10px; 
   width: 25%;
   background-color: #fff;
 
@@ -280,6 +289,7 @@ p {
 
 .mobtext {
   display: flex;
+  width: 100%;
   flex-direction: row;
   padding: 0%;
   background-color: #fff;
@@ -295,8 +305,6 @@ p {
     font-size: 10vw;
 
   }
-  
-
 
 }
 
@@ -354,7 +362,7 @@ p {
   width:100%;
   height: max-content;
   top: -20dvh;
-  left: 9vw;
+  left: 5vw;
   padding: 0% !important;
   margin: 0px!important;
 }
@@ -484,7 +492,7 @@ p {
 .cardp {
   background-color: #fff;
   width: 100%;
-  margin: 15px;
+  margin: 15px; 
   box-shadow: 0px 10px 16px silver;
 }
 
